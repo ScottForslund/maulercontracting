@@ -26,8 +26,22 @@ body {
   flex-wrap: wrap;
 }
 .logo {
-  height: 80px;
-  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+.logo img {
+  height: 300px;
+  width: auto;
+  max-width: 160px;
+  object-fit: contain;
+}
+@media (max-width: 760px) {
+  .logo img {
+    height: 45px;
+    max-width: 120px;
+  }
 }
 .header-right {
   text-align: left;
