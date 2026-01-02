@@ -16,7 +16,7 @@ body {
 
 /* === HEADER === */
 .site-header {
-  background: url("images/header-bg.jpg") no-repeat center/cover;
+  background: url("images/backgroundfooterheader.png") no-repeat center/cover;
   padding: 20px 5%;
 }
 .header-content {
@@ -243,7 +243,7 @@ body {
 
 /* === FOOTER === */
 .site-footer {
-  background: url("images/footer-bg.jpg") no-repeat center/cover;
+  background: url("images/logo.JPG") no-repeat center/cover;
   color: #fff;
   padding: 40px 20px;
 }
@@ -287,7 +287,7 @@ body {
 /* === Add leather-like texture and light grain === */
 body {
   background: radial-gradient(circle at top left, #5b3820 0%, #3a2010 100%),
-    url("images/leather-texture.jpg"); /* optional texture overlay */
+    url("images/backgroundfooterheader.png"); /* optional texture overlay */
   background-blend-mode: overlay;
   background-size: cover;
   background-attachment: fixed;
@@ -386,7 +386,7 @@ button:hover {
       rgba(80, 42, 17, 0.95) 0%,
       rgba(45, 20, 9, 0.95) 100%
     ),
-    url("images/boot-grain-texture.jpg");
+    url("images/backgroundfooterheader.png");
   background-size: cover;
   box-shadow: inset 0 8px 16px rgba(0, 0, 0, 0.8),
     0 -6px 20px rgba(0, 0, 0, 0.6);
