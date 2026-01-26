@@ -32,9 +32,9 @@ body {
   margin-right: 30px;
 }
 .logo img {
-  height: 300px;
+  height: 400px;
   width: auto;
-  max-width: 160px;
+  max-width: 400px;
   object-fit: contain;
 }
 @media (max-width: 760px) {
@@ -253,7 +253,10 @@ body {
   align-items: center;
 }
 .footer-logo {
-  height: 70px;
+  height: 60px;
+  width: 50px;
+  object-fit: contain;
+  display: block;
   margin-bottom: 10px;
 }
 .footer-content h3 {
@@ -286,7 +289,8 @@ body {
 
 /* === Add leather-like texture and light grain === */
 body {
-  background: radial-gradient(circle at top left, #5b3820 0%, #3a2010 100%),
+  background:
+    radial-gradient(circle at top left, #5b3820 0%, #3a2010 100%),
     url("images/backgroundfooterheader.png"); /* optional texture overlay */
   background-blend-mode: overlay;
   background-size: cover;
@@ -301,7 +305,8 @@ body {
     rgba(150, 102, 50, 0.9) 0%,
     rgba(110, 78, 35, 0.88) 100%
   );
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6),
+  box-shadow:
+    0 0 15px rgba(0, 0, 0, 0.6),
     inset 0 3px 6px rgba(255, 255, 255, 0.1),
     inset 0 -4px 6px rgba(0, 0, 0, 0.6);
 }
@@ -313,7 +318,9 @@ body {
     rgba(146, 105, 52, 0.88) 50%,
     rgba(110, 70, 30, 0.92) 100%
   );
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6), 0 1px 3px rgba(0, 0, 0, 0.4);
+  box-shadow:
+    inset 0 0 10px rgba(0, 0, 0, 0.6),
+    0 1px 3px rgba(0, 0, 0, 0.4);
   border-radius: 6px;
 }
 
@@ -343,7 +350,8 @@ body {
 /* === Collage elevation with embossed border === */
 .slider {
   border: 3px solid rgba(211, 162, 85, 0.8);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5),
+  box-shadow:
+    0 6px 20px rgba(0, 0, 0, 0.5),
     inset 0 1px 4px rgba(255, 255, 255, 0.2);
 }
 
@@ -353,14 +361,16 @@ textarea {
   background-color: rgb(164, 163, 163);
   color: #fff;
   backdrop-filter: blur(2px);
-  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.15),
+  box-shadow:
+    inset 0 1px 2px rgba(255, 255, 255, 0.15),
     inset 0 -2px 4px rgba(0, 0, 0, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 input:focus,
 textarea:focus {
   border-color: #d4a55a;
-  box-shadow: 0 0 6px rgba(245, 244, 244, 0.5),
+  box-shadow:
+    0 0 6px rgba(245, 244, 244, 0.5),
     inset 0 0 6px rgba(255, 255, 200, 0.3);
   outline: none;
 }
@@ -368,27 +378,31 @@ textarea:focus {
 /* === Buttons with dimensional pop === */
 button {
   background: linear-gradient(180deg, #906013 0%, #b5843b 100%);
-  box-shadow: inset 0 2px 4px rgba(11, 11, 11, 0.3),
+  box-shadow:
+    inset 0 2px 4px rgba(11, 11, 11, 0.3),
     0 4px 6px rgba(0, 0, 0, 0.5);
   color: #2b1805;
   transition: transform 0.1s ease-in;
 }
 button:hover {
   transform: translateY(-2px);
-  box-shadow: inset 0 2px 3px rgba(255, 255, 255, 0.3),
+  box-shadow:
+    inset 0 2px 3px rgba(255, 255, 255, 0.3),
     0 6px 12px rgba(0, 0, 0, 0.6);
 }
 
 /* === Footer gloss and scuff === */
 .site-footer {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180deg,
       rgba(80, 42, 17, 0.95) 0%,
       rgba(45, 20, 9, 0.95) 100%
     ),
     url("images/backgroundfooterheader.png");
   background-size: cover;
-  box-shadow: inset 0 8px 16px rgba(0, 0, 0, 0.8),
+  box-shadow:
+    inset 0 8px 16px rgba(0, 0, 0, 0.8),
     0 -6px 20px rgba(0, 0, 0, 0.6);
 }
 .footer-content h3,
